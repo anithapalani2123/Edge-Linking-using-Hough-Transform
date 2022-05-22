@@ -30,7 +30,7 @@ Display the image and end the program.
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
-image = cv2.imread("building.jpg",0)
+image = cv2.imread("pict.jpg",0)
 img = cv2.GaussianBlur(image,(3,3),0)
 plt.axis('off')
 plt.imshow(img)
